@@ -1,7 +1,7 @@
 server {
 server_name @@HOSTNAME@@ www.@@HOSTNAME@@;
 root @@PATH@@;
-listen 8080;
+listen 80;
 port_in_redirect off;
 index index.html index.php;
 
